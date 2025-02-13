@@ -8,6 +8,8 @@
     margin: 0 auto;
 }
 
+/* Header */
+
 .header {
     position: relative;
     padding-block-start: 24px;
@@ -24,6 +26,12 @@
     position: absolute;
     top: 260px;
     right: 60px;
+}
+
+.header__decor-line {
+    position: absolute;
+    bottom: -80px;
+    left: 690px;
 }
 
 .header__head {
@@ -185,6 +193,12 @@
     left: 170px;
 }
 
+.cardtwo_decorface {
+    position: absolute;
+    top: 100px;
+    left: 103px;
+}
+
 .card-text {
     position: absolute;
     bottom: 20px;
@@ -223,6 +237,95 @@
     display: flex;
     gap: 150px;
 }
+
+/* Talk */
+
+.talk {
+    padding-block: 140px;
+}
+
+.talk__title {
+    font-size: 59px;
+    line-height: 71px;
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+.talk__question {
+    padding-block-start: 100px;
+    display: flex;
+    gap: 216px;
+}
+
+.talk__question__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.question__item-text {
+    font-weight: var(--fw-medium);
+    line-height: 25.6px;
+    text-align: center;
+}
+
+.talk__popular {
+    position: relative;
+    margin-block-start: 120px;
+    width: 100%;
+    background-color: var(--background-color-first);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular__decor-star {
+    position: absolute;
+    top: -60px;
+    right: -45px;
+}
+
+.popular__decor-line {
+    position: absolute;
+    bottom: 45px;
+    left: -60px;
+}
+
+.talk__popular-mark {
+    padding-block-start: 40px;
+}
+
+.talk__popular-title {
+    padding: 40px 170px 0;
+    font-size: 37px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.talk__popular__author {
+    padding-block: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popular__author-img {
+    border-radius: 50%;
+}
+
+.popular__author-name {
+    font-size: 14px;
+    font-weight: var(--fw-medium);
+    line-height: 22px;
+}
+
+.popular__author-profession {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: var(--fw-bold);
+}
+
 
 
 
