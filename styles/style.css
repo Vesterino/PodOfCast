@@ -241,6 +241,7 @@
 /* Talk */
 
 .talk {
+    position: relative;
     padding-block: 140px;
 }
 
@@ -325,6 +326,122 @@
     line-height: 22px;
     font-weight: var(--fw-bold);
 }
+
+/* What */
+
+.what {
+    position: relative;
+    background-color: var(--background-color-secondary);
+    padding-block-end: 60px;
+}
+
+.what__decor {
+    position: absolute;
+    top: -75px;
+    left: 650px;
+}
+
+.what__decor-sparkle {
+    position: absolute;
+    top: 60px;
+    left: 270px;
+}
+
+.what__title {
+    padding-block-start: 140px;
+    font-size: 59px;
+    line-height: 71px;
+    font-weight: var(--fw-bold);
+    letter-spacing: -1.18px;
+    text-align: center;
+}
+
+.what__subtitle {
+    padding-block-start: 20px;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: var(--fw-medium);
+    color: var(--accent-color-text);
+    text-align: center;
+}
+
+.what__previews {
+    padding-block-start: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.what__previews-item {
+    padding: 40px 40px;
+    width: 570px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.what__previews-text {
+    padding-block-start: 40px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: var(--fw-medium);
+}
+
+.what__previews__author {
+    padding-block-start: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.previews__author-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.previews__author-name {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: var(--fw-medium);
+}
+
+.previews__platform {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.previews__author-platform {
+    width: 16px;
+    height: 16px;
+}
+
+.previews__author-platformName {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: var(--fw-bold);
+}
+
+.what__arrows {
+    padding-block-start: 60px;
+    display: flex;
+    gap: 25.5px;
+}
+
+.arrows__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 37px;
+    height: 37px;
+    background-color: transparent;
+    border: 2.5px solid #000;
+    border-radius: 50%;
+}
+
+.what__arrows-right {
+    border-color: var(--accent-color);
+}
+
 
 
 
